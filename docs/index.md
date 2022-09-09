@@ -29,8 +29,8 @@ Download and install the :material-file: cs1300-setup.msi[^1] from the CSCI 1300
 ## :computer: Build and Run!
 The code files are C++ files, these can have any of the following extensions `.C`, `.cc`, `.cpp`, `.CPP`, `.c++`, `.cp`, or `.cxx`.[^3]
 
-To build we will use the **GNU g++** compiler 
-=== "windows"
+To build (in general) we will use the **GNU g++** compiler 
+=== "Windows"
     ``` bat
     C:\Codes> g++ input-file.cc -o output.exe
     ```
@@ -40,7 +40,7 @@ To build we will use the **GNU g++** compiler
     ```
 
 and then to execute the program
-=== "windows"
+=== "Windows"
     ``` bat
     C:\Codes> output.exe
     ```
@@ -48,6 +48,25 @@ and then to execute the program
     ```bash
     $ ./output.out
     ```
+but for `<graphics.h>` we will be using the `bgi++` compiler provided in the CS1300 tools
+=== "Windows"
+    ``` bat
+    C:\Codes> bgi++ input-file.cc -o output.exe
+    C:\Codes> output.exe
+    ```
+### Flags
+various flags can be used to customize the output of the compiler
+```
+-g                      Generate source-level debug information
+-o <file>               Write output to <file>
+-W<warning>             Enable the specified warning
+```
+the `-Wall` will enable all warnings
+=== "Windows"
+    ``` bat
+    C:\Codes> bgi++ input-file.cc -o output.exe -g -Wall
+    ```
+
 
 [^1]: :material-file: [https://home.cs.colorado.edu/~main/cs1300/cs1300-setup.msi](https://home.cs.colorado.edu/~main/cs1300/cs1300-setup.msi)
 [^2]: CSCI 1300 Software Package - [https://home.cs.colorado.edu/~main/cs1300/README.html](https://home.cs.colorado.edu/~main/cs1300/README.html)

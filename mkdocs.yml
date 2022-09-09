@@ -17,6 +17,13 @@ theme:
 
   features:
     - content.tabs.link
+    - navigation.tabs
+
+nav:
+  - Home:
+    - CM3106: index.md
+  - Introduction:
+    - Home: intro/index.md
 
 extra:
   social:

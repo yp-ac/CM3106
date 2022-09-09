@@ -1,16 +1,43 @@
 site_name: Graphics Using C
+repo_url: https://github.com/yp-ac/CM3106
+repo_name: yp-ac/CM3106
+edit_uri: ''
+
 theme:
   name: material
+
   palette:
     scheme: slate
     primary: teal
     accent: light blue
+
   icon:
     logo: material/database
     favicon: material/database
+
+  features:
+    - content.tabs.link
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/yashppawar
       name: Yash on github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji 
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true

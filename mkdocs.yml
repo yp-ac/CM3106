@@ -1,0 +1,16 @@
+site_name: Graphics Using C
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: teal
+    accent: light blue
+  icon:
+    logo: material/database
+    favicon: material/database
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yashppawar
+      name: Yash on github

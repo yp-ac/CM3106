@@ -18,6 +18,7 @@ theme:
   features:
     - content.tabs.link
     - navigation.tabs
+    - toc.integrate
 
 nav:
   - Home:

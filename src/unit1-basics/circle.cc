@@ -7,7 +7,7 @@ int main(int argc, char* argv[]) {
     int x, y, r, min;
 
     // initgraph(&graphDriver, &graphMode, "C:\\Program Files (x86)\\Colorado\\cs1300\\bgi");
-    initwindow(180, 180, "Circle +", 100, 100);
+    initwindow(350, 350, "Circle +", 100, 100);
 
     // x = getmaxx();
     // y = getmaxy();
@@ -18,7 +18,7 @@ int main(int argc, char* argv[]) {
     // circle(x / 2, y / 2, r);
 
     setcolor(LIGHTCYAN);
-    circle(20, 20, 10);
+    circle(50, 50, 20);
 
     getch();
     closegraph();

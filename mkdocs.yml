@@ -25,6 +25,10 @@ nav:
     - CM3106: index.md
   - Introduction:
     - Home: intro/index.md
+  - Projects :
+    - Rainbow: projects/rainbow.md
+  - Algorithms :
+    - DDA : Algorithms/DDA.md
 
 extra:
   social:
